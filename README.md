@@ -2,7 +2,7 @@
 
 macro muscle
 
-ouvrir image
+avant d'utiliser la macro :
 * reconstruction de la mosaique avec le plugin grid collection stitching
 * attention l'image n'est plus étalonnée TODO: ajouter une ligne à la macro
 run("Properties...", "channels=2 slices=3 frames=1 unit=um pixel_width=0.3244015 pixel_height=0.3244015 voxel_depth=1");
