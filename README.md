@@ -8,3 +8,10 @@ ouvrir image
 run("Properties...", "channels=2 slices=3 frames=1 unit=um pixel_width=0.3244015 pixel_height=0.3244015 voxel_depth=1");
 ---> l'image comporte 2 canaux  (ch1=green, ch2=red) et 3 slices
 requirements : Tubeness plugin : https://longair.net/edinburgh/imagej/tubeness/
+
+
+macro SelectionToBand
+
+ process image before 
+ * 			spot-detector/colocalization in Icy
+ * 			or Mitobo/particles2D in Fiji
