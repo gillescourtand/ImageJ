@@ -1,6 +1,6 @@
 # ImageJ
 
-macro muscle
+<b>macro muscle</b>
 
 avant d'utiliser la macro :
 * reconstruction de la mosaique avec le plugin grid collection stitching
