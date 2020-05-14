@@ -10,7 +10,7 @@ run("Properties...", "channels=2 slices=3 frames=1 unit=um pixel_width=0.3244015
 * requirements : Tubeness plugin : https://longair.net/edinburgh/imagej/tubeness/
 
 
-macro SelectionToBand
+<b>macro SelectionToBand</b>
 
  process image before 
  * 			spot-detector/colocalization in Icy
